@@ -1,8 +1,17 @@
+h4{
+  font-size: 100px;
+  color: black;
+}
+
 body{
   /*background-color: whitesmoke;*/
   font-family: "HelveticaNeue-Light";
+  background-color: #ffffff;
+  background-image: url(../images/black-orchid.png);
 }
-header .wrapper{
+
+/*///////// HEADER ////////*/
+/*header .wrapper{
   font-size: 30px;
   font-weight: 100;
   display: inline-block;
@@ -10,13 +19,51 @@ header .wrapper{
   width: 50%;
   padding-top: 2px;
   padding-left: 30px;
+}*/
+header{
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-size: 72px;
+  line-height: 108px;
+  height: 108px;
+  background: #B22222;
+  color: black;
+  transition: all 0.4s ease;
+}
+header.sticky {
+  font-size: 24px;
+  line-height: 48px;
+  height: 48px;
+  background: indianred;
+  text-align: left;
+  padding-left: 20px;
+}
+.symb{
+  font-size: 40px;
+}
+span.sticky {
+  color: white;
+  font-size: 0;
+  line-height: 20px;
+  height: 20px;
 }
 .role{
-  font-size: 22px;
+  font-size: 50px;
 }
+span.sticky{
+  font-size: 10px;
+  line-height: 20px;
+  height: 20px;
+}
+
+/*////////// NAV BAR ///////////*/
 nav{
-  display: inline-block;
-  width: 45%;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  height: 300px;
+  padding-top: 600px;
   font-size: 30px;
 }
 .nav-li{
@@ -31,7 +78,70 @@ a {
     color: black;
 }
 
-.container{
+
+/*///////// MAIN ///////////*/
+.main-wrapper{
+  /*min-height: 100%;*/
+  width: 782px; 
+  height: 900px;
+}
+/*.content{
+  font-size: 30px;
+  color: black;
+  background-color: rgba(225,225,225,0.5);
+  z-index: 3;
+  width: 70%;
+  height: 500px;
+}
+*/
+/*//////// FOOTER: CONTACT DETAILS CONTAINER //////////*/
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  height: 50px;
+  padding: 0 0 20px 0 ;
+}
+
+.contact:hover{
+  color: tomato;
+  cursor: pointer;
+}
+
+.contact{
+  text-decoration: none;
+  padding: 0px 5px 0px 10px;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+.contact-icon{
+  padding: 0px 40px 5px 20px;
+  margin: 0 10px 0 10px;
+  display: inline-block;
+}
+
+
+#email{
+  text-decoration: none;
+  color: white;
+  cursor: auto;
+}
+
+#contact-container{
+  background-color: rgba(225,225,225,0.9);
+  display: inline-block;
+  width: auto;
+  display: none;
+}
+
+/*///////// ABOUT ME /////////*/
+
+./*container{
   background: url(../images/classroom.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -51,28 +161,4 @@ a {
   top: 0%;
   left: 10%;
   overflow: hidden;
-}
-h4{
-  font-size: 100px;
-  color: black;
-}
-
-.contact:hover{
-  color: tomato;
-  cursor: pointer;
-}
-
-.contact{
-  text-decoration: none;
-  display: inline-block;
-  padding: 3px;
-  margin: 2px;
-  font-size: 10px;
-}
-
-#contact-container{
-  background-color: rgba(225,225,225,0.9);
-  display: inline-block;
-  width: auto;
-  display: none;
-}
+}*/
