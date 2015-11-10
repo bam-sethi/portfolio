@@ -4,7 +4,8 @@
 
 #CV
 ---
-#Ambar Sethi			      Junior Web Developer
+#Ambar Sethi			    
+##Junior Web Developer
 
 
 For three months I have been intensively studying full stack web development at General Assembly. I got here in a roundabout sort of way. At university I studied art and loved learning about building things. However I knew I never wanted to do art as a career. I started learning web development straight out of art school, whilst working as a chef. I knew for sure after several months that this is what I wanted to do and wanted the acceleration that WDI offered.
