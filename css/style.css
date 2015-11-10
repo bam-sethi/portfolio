@@ -19,7 +19,7 @@ nav{
   width: 45%;
   font-size: 30px;
 }
-li{
+.nav-li{
   text-decoration: none;
   display: inline-block;
   background-color: linen;
@@ -28,7 +28,9 @@ li{
 }
 a {
     text-decoration: none !important;
+    color: black;
 }
+
 .container{
   background: url(../images/classroom.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -49,4 +51,28 @@ a {
   top: 0%;
   left: 10%;
   overflow: hidden;
+}
+h4{
+  font-size: 100px;
+  color: black;
+}
+
+.contact:hover{
+  color: tomato;
+  cursor: pointer;
+}
+
+.contact{
+  text-decoration: none;
+  display: inline-block;
+  padding: 3px;
+  margin: 2px;
+  font-size: 10px;
+}
+
+#contact-container{
+  background-color: rgba(225,225,225,0.9);
+  display: inline-block;
+  width: auto;
+  display: none;
 }
