@@ -1,3 +1,52 @@
 body{
-  background-color: hotpink;
+  /*background-color: whitesmoke;*/
+  font-family: "HelveticaNeue-Light";
+}
+header .wrapper{
+  font-size: 30px;
+  font-weight: 100;
+  display: inline-block;
+  background-color: mistyrose;
+  width: 50%;
+  padding-top: 2px;
+  padding-left: 30px;
+}
+.role{
+  font-size: 22px;
+}
+nav{
+  display: inline-block;
+  width: 45%;
+  font-size: 30px;
+}
+li{
+  text-decoration: none;
+  display: inline-block;
+  background-color: linen;
+  padding: 10px;
+  margin: 15px;
+}
+a {
+    text-decoration: none !important;
+}
+.container{
+  background: url(../images/classroom.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 700px;
+}
+.content{
+  position: absolute;
+  display: inline-block;
+  width: 80%;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(225,225,225,0.5);
+  z-index: 3;
+  top: 0%;
+  left: 10%;
+  overflow: hidden;
 }
