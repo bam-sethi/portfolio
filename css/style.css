@@ -10,16 +10,9 @@ body{
   background-image: url(../images/black-orchid.png);
 }
 
+
 /*///////// HEADER ////////*/
-/*header .wrapper{
-  font-size: 30px;
-  font-weight: 100;
-  display: inline-block;
-  background-color: mistyrose;
-  width: 50%;
-  padding-top: 2px;
-  padding-left: 30px;
-}*/
+
 header{
   position: fixed;
   width: 100%;
@@ -31,6 +24,7 @@ header{
   color: black;
   transition: all 0.4s ease;
 }
+
 header.sticky {
   font-size: 24px;
   line-height: 48px;
@@ -39,18 +33,22 @@ header.sticky {
   text-align: left;
   padding-left: 20px;
 }
+
 .symb{
   font-size: 40px;
 }
+
 span.sticky {
   color: white;
   font-size: 0;
   line-height: 20px;
   height: 20px;
 }
+
 .role{
   font-size: 50px;
 }
+
 span.sticky{
   font-size: 10px;
   line-height: 20px;
@@ -66,6 +64,7 @@ nav{
   padding-top: 600px;
   font-size: 30px;
 }
+
 .nav-li{
   text-decoration: none;
   display: inline-block;
@@ -73,7 +72,8 @@ nav{
   padding: 10px;
   margin: 15px;
 }
-a {
+
+a{
     text-decoration: none !important;
     color: black;
 }
@@ -81,19 +81,38 @@ a {
 
 /*///////// MAIN ///////////*/
 .main-wrapper{
-  /*min-height: 100%;*/
   width: 782px; 
   height: 900px;
 }
-/*.content{
-  font-size: 30px;
-  color: black;
-  background-color: rgba(225,225,225,0.5);
-  z-index: 3;
-  width: 70%;
-  height: 500px;
+
+/*////// PROJECT AND ABOUT ME ICON ////////*/
+li.link-icon:hover {
+  color: firebrick;
 }
-*/
+
+li.link-icon{
+  width: 40%;
+  height: 50px;
+  background-color: rgba(225,225,225,0);
+  display: inline-block;
+  padding: 30px;
+}
+.icon{
+  height: 100px;
+  display: inline-block;
+}
+ul#icon-list{
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  margin-left: 30%;
+  transition: all 0.4s ease;
+}
+#icon-list.sticky-icon{
+  height: 100px;
+  bottom: 0;
+}
+
 /*//////// FOOTER: CONTACT DETAILS CONTAINER //////////*/
 footer{
   position: fixed;
@@ -107,7 +126,7 @@ footer{
 }
 
 .contact:hover{
-  color: tomato;
+  color: crimson;
   cursor: pointer;
 }
 
@@ -139,9 +158,58 @@ footer{
   display: none;
 }
 
+
+
+
+/*///////// PROJECTS //////////*/
+.projects{
+  width: 35%;
+  /*padding: 0 10px 0 10px;*/
+  display: inline-block;
+/*  min-height: 30%;
+  max-height: 300px;*/
+  /*position: relative;*/
+}
+
+.project-nav{
+  font-size: 100px;
+}
+
+#project-2{
+  position: relative;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+
+}
+
+#project-3{
+  position: relative;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+}
+
+.project-title{ 
+  margin: 10px;
+  text-align: center;
+  background-color: hotpink;
+  padding: 0 10px 0 10px;
+  color:white;
+  opacity: 0.5;
+  top:0;
+  left:0;
+  position: absolute;
+}
+
 /*///////// ABOUT ME /////////*/
 
-./*container{
+
+#about-me-content{
+  display: none;
+}
+
+/*.container{
   background: url(../images/classroom.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -149,8 +217,8 @@ footer{
   background-size: cover;
   position: relative;
   height: 700px;
-}
-.content{
+}*/
+/*.content{
   position: absolute;
   display: inline-block;
   width: 80%;
@@ -162,3 +230,4 @@ footer{
   left: 10%;
   overflow: hidden;
 }*/
+

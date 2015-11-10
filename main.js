@@ -9,10 +9,18 @@ $(document).ready(function(){
   $(window).scroll(function() {
   if ($(this).scrollTop() > 1){  
       $('header').addClass("sticky");
+      $('#icon-list').addClass("sticky-icon")
     }
     else{
       $('header').removeClass("sticky");
+      $('#icon-list').removeClass("sticky-icon")
+
     }
   });
+
+  // $("#project").on("click", function(){
+  //   console.log("clciked")
+  //   $("#about-me-content").toggle();
+  // })
 
 })
